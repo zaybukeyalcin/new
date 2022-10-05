@@ -1,0 +1,23 @@
+Diziyi ikiye bölerek yeniden yazarız				16	21	11	8	12	22			
+Sol ve sağdaki dizileri tekrar ikiye böleriz			16	21	11			8	12	22		
+Tek eleman kalana kadar bir kere daha böleriz		16	21		11			8		12	22	
+	16		21		11			8		12		22
+
+
+
+
+
+	16		21		11			8		12		22
+ikili ikili ikili sıralayarak birleştiririz.		16	21		11			8		12	22	
+Tekrar ikili ikili sıralayarak birleştiririz.			11	16	21			8	12	22		
+Son birleştirmede dizimizi elde ediyoruz.				8	11	12	16	21	22			
+
+
+
+Recursive bir fonksiyon olduğu için sürekli kendini çağırarak diziyi hep ikiye bölmektedir. Her bölünmüş dizinin Merge işlemi için de dizinin uzunluğu olan n işlem yapıldığından O(n*(logn)) --> O(6*(log6)) olur.
+
+
+www.patika.dev
+
+
+
